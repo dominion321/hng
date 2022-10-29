@@ -13,7 +13,7 @@ app.all('/', function(req, res, next) {
 
 app.get('/', (req,res) => {
     res.status(200);
-    res.send({ "slackUsername": "Dominion", 
+    res.send({ "slackUsername": "Dom", 
     "backend": true, 
     "age": 21, 
     "bio": "I am an Associate Google Cloud Engineering in the making and an aspiring software engineer. " 
